@@ -1,0 +1,96 @@
+complaint_id,complaint_text,language,code_mixed,category,priority_label,source_type,dataset_split
+1,"There is no water supply in our area for the past 3 days.",en,false,water_supply,high,synthetic,train
+2,"Mere area mein paani nahi aa raha hai pichle 2 din se.",hinglish,true,water_supply,high,synthetic,train
+3,"Namma area alli neeru bartha illa, 3 dina aitu.",kanglish,true,water_supply,high,synthetic,train
+4,"Water pipe burst near main road leaking continuously.",en,false,water_supply,high,synthetic,train
+5,"Paani ki pipe phat gayi hai aur pani beh raha hai.",hinglish,true,water_supply,high,synthetic,train
+6,"Our tap has no water since morning.",en,false,water_supply,normal,synthetic,train
+7,"Subah se paani nahi aa raha ghar mein.",hinglish,true,water_supply,normal,synthetic,train
+8,"Water meter is not working correctly.",en,false,water_supply,normal,synthetic,train
+9,"Municipal water quality is very poor and smells bad.",en,false,water_supply,high,synthetic,train
+10,"Pani bahut ganda aa raha hai, peene layak nahi.",hinglish,true,water_supply,high,synthetic,train
+11,"Road mein bahut saare potholes hain, gadi damage ho rahi hai.",hinglish,true,roads_potholes,normal,synthetic,train
+12,"Road alli tumba potholes ide, car damage agtide.",kanglish,true,roads_potholes,normal,synthetic,train
+13,"There are many potholes on MG Road causing accidents.",en,false,roads_potholes,high,synthetic,train
+14,"The road near our colony is completely broken, no tar.",en,false,roads_potholes,high,synthetic,train
+15,"Sadak ki haalat bahut kharab hai, repairs nahi ho rahi.",hinglish,true,roads_potholes,normal,synthetic,train
+16,"Main road pura kharab ho gaya hai, accidents ho rahe hain.",hinglish,true,roads_potholes,high,synthetic,train
+17,"Footpath completely dug up, no pedestrian path.",en,false,roads_potholes,normal,synthetic,train
+18,"Speed breakers missing on school road, very dangerous.",en,false,roads_potholes,high,synthetic,train
+19,"Road work started but left incomplete for months.",en,false,roads_potholes,normal,synthetic,train
+20,"Namma road repair agtilla, months aitu.",kanglish,true,roads_potholes,normal,synthetic,train
+21,"Garbage has not been collected in our area for 5 days.",en,false,garbage_sanitation,normal,synthetic,train
+22,"Hamare area mein garbage collect nahi hua 5 din se.",hinglish,true,garbage_sanitation,normal,synthetic,train
+23,"Kachra utha nahi rahe hain, bahut bura smell aa raha hai.",hinglish,true,garbage_sanitation,high,synthetic,train
+24,"Dustbin near park is overflowing with garbage.",en,false,garbage_sanitation,high,synthetic,train
+25,"Namma area dustbin tumba agtide, clean maadilla.",kanglish,true,garbage_sanitation,normal,synthetic,train
+26,"Open garbage dump next to school causing health hazard.",en,false,garbage_sanitation,urgent,synthetic,train
+27,"Kachra jal raha hai khule mein, smoke aa rahi hai.",hinglish,true,garbage_sanitation,high,synthetic,train
+28,"Waste water flowing on the road from garbage pile.",en,false,garbage_sanitation,high,synthetic,train
+29,"Sweeper not coming to our street since one week.",en,false,garbage_sanitation,normal,synthetic,train
+30,"Municipality wale kachra nahi le rahe, complain ki koi sunwai nahi.",hinglish,true,garbage_sanitation,normal,synthetic,train
+31,"Street light not working in our lane for 2 weeks.",en,false,electricity_lights,normal,synthetic,train
+32,"Street light work agtilla, raat ko bahut dark hai.",kanglish,true,electricity_lights,normal,synthetic,train
+33,"Bijli kab aayegi, 8 ghante se current nahi hai.",hinglish,true,electricity_lights,high,synthetic,train
+34,"Power outage in entire sector since morning.",en,false,electricity_lights,high,synthetic,train
+35,"Exposed electrical wire hanging near water logged area.",en,false,electricity_lights,urgent,synthetic,train
+36,"Bijli ki wire khuli pad rahi hai, bahut dangerous hai.",hinglish,true,electricity_lights,urgent,synthetic,train
+37,"Transformer has been sparking for last 2 days.",en,false,electricity_lights,urgent,synthetic,train
+38,"Multiple street lights damaged after last storm.",en,false,electricity_lights,normal,synthetic,train
+39,"Current bahut zyada aata hai, appliances jal rahe hain.",hinglish,true,electricity_lights,high,synthetic,train
+40,"Namma area alli light illa, every night problem agtide.",kanglish,true,electricity_lights,normal,synthetic,train
+41,"Sewage overflowing near our house on the road.",en,false,drainage_sewage,high,synthetic,train
+42,"Nali ka paani sadak par aa raha hai, bahut bura smell hai.",hinglish,true,drainage_sewage,high,synthetic,train
+43,"Namma mane hatra sewerge overflow agtide.",kanglish,true,drainage_sewage,high,synthetic,train
+44,"Drainage pipe blocked causing flooding in basement.",en,false,drainage_sewage,high,synthetic,train
+45,"Manhole open hai, khatra hai pedestrians ko.",hinglish,true,drainage_sewage,urgent,synthetic,train
+46,"Open manhole on main road no cover, accident risk.",en,false,drainage_sewage,urgent,synthetic,train
+47,"Naali block ho gayi hai, paani nikal nahi raha.",hinglish,true,drainage_sewage,high,synthetic,train
+48,"Rainwater stagnating on road for days, mosquitoes breeding.",en,false,drainage_sewage,high,synthetic,train
+49,"Gutter overflow near school every time it rains.",en,false,drainage_sewage,high,synthetic,train
+50,"Naala saf nahi ho raha, monsoon mein problem hogi.",hinglish,true,drainage_sewage,normal,synthetic,train
+51,"Broken boundary wall of public park creating danger.",en,false,public_safety,high,synthetic,train
+52,"Gas leak smell coming from street, very dangerous.",en,false,public_safety,urgent,synthetic,train
+53,"Gas ki smell aa rahi hai, area ko urgent check karo.",hinglish,true,public_safety,urgent,synthetic,train
+54,"Stray dogs attacking people near market area.",en,false,public_safety,high,synthetic,train
+55,"Anti-social elements troubling residents at night.",en,false,public_safety,high,synthetic,train
+56,"Illegal construction blocking emergency vehicle access.",en,false,public_safety,high,synthetic,train
+57,"Fire at abandoned building spreading, immediate help needed.",en,false,public_safety,urgent,synthetic,train
+58,"Deep pit dug for construction left open without barricade.",en,false,public_safety,urgent,synthetic,train
+59,"Old tree about to fall on the road.",en,false,public_safety,high,synthetic,train
+60,"Flooding near house, help required urgently.",en,false,public_safety,urgent,synthetic,train
+61,"Bus stop ke paas autorickshaw stand nahi hai, bahut problem hai.",hinglish,true,public_transport,normal,synthetic,train
+62,"Buses namma area alli bandhu illalla, bahut wait maadbekagide.",kanglish,true,public_transport,normal,synthetic,train
+63,"Bus route 500 is not running on time, always 30 min late.",en,false,public_transport,normal,synthetic,train
+64,"Overcrowded buses in morning peak hour, safety issue.",en,false,public_transport,high,synthetic,train
+65,"No bus shelter at main junction, commuters standing in rain.",en,false,public_transport,normal,synthetic,train
+66,"Bus number 72 cancelled without any notice.",en,false,public_transport,normal,synthetic,train
+67,"Namma metro station lift kharab aagide, differently abled log ashttu.",kanglish,true,public_transport,normal,synthetic,train
+68,"Auto drivers refusing to use meter, overcharging passengers.",en,false,public_transport,normal,synthetic,train
+69,"Bus driver rash driving, complaint for safety.",en,false,public_transport,high,synthetic,train
+70,"Train platform has no announcement system working.",en,false,public_transport,normal,synthetic,train
+71,"Random complaint with no clear category mentioned.",en,false,other,low,synthetic,train
+72,"Need information about government scheme.",en,false,other,low,synthetic,train
+73,"Something is wrong but I am not sure what department to contact.",en,false,other,low,synthetic,train
+74,"Complaint about neighbour making noise at night.",en,false,other,low,synthetic,train
+75,"Request for new park in our colony.",en,false,other,low,synthetic,train
+76,"Water supply cut in morning, came back after noon.",en,false,water_supply,normal,synthetic,val
+77,"Sadak par bade bade gadde hain, baarish mein aur bura hoga.",hinglish,true,roads_potholes,high,synthetic,val
+78,"BBMP truck kachra collect maadilla, 4 days aitu.",kanglish,true,garbage_sanitation,normal,synthetic,val
+79,"Transformer down, 3 hours se bijli nahi hai.",hinglish,true,electricity_lights,high,synthetic,val
+80,"Sewage water coming inside house compound.",en,false,drainage_sewage,high,synthetic,val
+81,"Electricity wire lying on wet road, very dangerous.",en,false,electricity_lights,urgent,synthetic,val
+82,"No water in morning, pipe burst in lane.",en,false,water_supply,high,synthetic,val
+83,"Road near school broken, school children at risk.",en,false,roads_potholes,high,synthetic,val
+84,"Bus route 200 not coming, waiting for 1 hour.",en,false,public_transport,normal,synthetic,val
+85,"Chemical smell near factory, possible gas leak.",en,false,public_safety,urgent,synthetic,val
+86,"Garbage nahi uthaya gaya, smell bahut bad hai.",hinglish,true,garbage_sanitation,normal,synthetic,test
+87,"Potholes on highway causing serious accidents.",en,false,roads_potholes,urgent,synthetic,test
+88,"Neeru ilyalla, enu maadodu gottilla.",kanglish,true,water_supply,high,synthetic,test
+89,"Open drain in front of house, children may fall.",en,false,drainage_sewage,urgent,synthetic,test
+90,"Street mein light nahi hai, ghar wapas aana mushkil ho raha.",hinglish,true,electricity_lights,normal,synthetic,test
+91,"Bus stand pe roof nahi hai, baarish mein sab bheegte hain.",hinglish,true,public_transport,normal,synthetic,test
+92,"Compound wall gira hua hai, rasthe pe pada hai.",hinglish,true,public_safety,high,synthetic,test
+93,"Water tank leaking, wasting thousands of litres.",en,false,water_supply,high,synthetic,test
+94,"No garbage collection since 1 week in entire society.",en,false,garbage_sanitation,normal,synthetic,test
+95,"Main road pura kharab aagide, drive maadoke aagalla.",kanglish,true,roads_potholes,high,synthetic,test

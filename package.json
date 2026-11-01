@@ -1,0 +1,17 @@
+{
+  "name": "jansetu-ai-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Root workspace runner for JanSetu AI",
+  "scripts": {
+    "dev": "concurrently -k -p \"[{name}]\" -n \"BACKEND,FRONTEND\" -c \"magenta,cyan\" \"npm run backend\" \"npm run frontend\"",
+    "frontend": "npm --prefix jansetu-ai/frontend run dev",
+    "backend": "cd jansetu-ai/backend && ..\\venv\\Scripts\\python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload",
+    "start": "npm run dev",
+    "build": "npm --prefix jansetu-ai/frontend run build",
+    "preview": "npm --prefix jansetu-ai/frontend run preview"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

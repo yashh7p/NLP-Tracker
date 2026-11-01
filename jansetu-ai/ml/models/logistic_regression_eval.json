@@ -1,0 +1,166 @@
+{
+  "model_name": "logistic_regression",
+  "test_size": 10,
+  "accuracy": 0.9,
+  "macro_f1": 0.8095,
+  "macro_precision": 0.7857,
+  "macro_recall": 0.8571,
+  "avg_latency_ms": 0.358,
+  "per_class_report": {
+    "Drainage & Sewage": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "Electricity & Lights": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 1.0
+    },
+    "Garbage & Sanitation": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "Public Safety": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Public Transport": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "Roads & Potholes": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "Water Supply": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "accuracy": 0.9,
+    "macro avg": {
+      "precision": 0.7857142857142857,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8095238095238094,
+      "support": 10.0
+    },
+    "weighted avg": {
+      "precision": 0.85,
+      "recall": 0.9,
+      "f1-score": 0.8666666666666666,
+      "support": 10.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "confusion_labels": [
+    "Drainage & Sewage",
+    "Electricity & Lights",
+    "Garbage & Sanitation",
+    "Public Safety",
+    "Public Transport",
+    "Roads & Potholes",
+    "Water Supply"
+  ],
+  "by_language": {
+    "hinglish": {
+      "count": 4,
+      "accuracy": 0.75,
+      "macro_f1": 0.6667
+    },
+    "en": {
+      "count": 4,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "kanglish": {
+      "count": 2,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    }
+  },
+  "error_analysis": [
+    {
+      "text": "Compound wall gira hua hai, rasthe pe pada hai.",
+      "true_label": "public_safety",
+      "predicted_label": "electricity_lights",
+      "language": "hinglish"
+    }
+  ],
+  "status": "evaluated"
+}

@@ -1,0 +1,288 @@
+{
+  "name": "logistic_regression",
+  "version": "1.0.0",
+  "description": "TF-IDF (1-3 grams, 10k features) + Logistic Regression (balanced class weights)",
+  "trained_at": "2026-10-22T16:20:31.859114",
+  "train_size": 75,
+  "val_size": 10,
+  "test_size": 10,
+  "train_time_seconds": 0.32,
+  "avg_latency_ms": 0.391,
+  "accuracy": 0.9,
+  "macro_f1": 0.8095,
+  "val_metrics": {
+    "accuracy": 0.7,
+    "macro_f1": 0.7095,
+    "macro_precision": 0.7381,
+    "macro_recall": 0.7143,
+    "per_class": {
+      "Drainage and Sewage": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "Electricity and Streetlights": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1-score": 0.6666666666666666,
+        "support": 2.0
+      },
+      "Garbage and Sanitation": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "Public Safety Hazards": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "Public Transport": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "Roads and Potholes": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1-score": 0.5,
+        "support": 2.0
+      },
+      "Water Supply and Leakage": {
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1-score": 0.8,
+        "support": 2.0
+      },
+      "accuracy": 0.7,
+      "macro avg": {
+        "precision": 0.7380952380952381,
+        "recall": 0.7142857142857143,
+        "f1-score": 0.7095238095238094,
+        "support": 10.0
+      },
+      "weighted avg": {
+        "precision": 0.7333333333333333,
+        "recall": 0.7,
+        "f1-score": 0.6933333333333334,
+        "support": 10.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    ],
+    "confusion_labels": [
+      "Drainage and Sewage",
+      "Electricity and Streetlights",
+      "Garbage and Sanitation",
+      "Public Safety Hazards",
+      "Public Transport",
+      "Roads and Potholes",
+      "Water Supply and Leakage"
+    ]
+  },
+  "test_metrics": {
+    "accuracy": 0.9,
+    "macro_f1": 0.8095,
+    "macro_precision": 0.7857,
+    "macro_recall": 0.8571,
+    "per_class": {
+      "Drainage and Sewage": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "Electricity and Streetlights": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1-score": 0.6666666666666666,
+        "support": 1.0
+      },
+      "Garbage and Sanitation": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
+      },
+      "Public Safety Hazards": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "Public Transport": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "Roads and Potholes": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
+      },
+      "Water Supply and Leakage": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
+      },
+      "accuracy": 0.9,
+      "macro avg": {
+        "precision": 0.7857142857142857,
+        "recall": 0.8571428571428571,
+        "f1-score": 0.8095238095238094,
+        "support": 10.0
+      },
+      "weighted avg": {
+        "precision": 0.85,
+        "recall": 0.9,
+        "f1-score": 0.8666666666666666,
+        "support": 10.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    ],
+    "confusion_labels": [
+      "Drainage and Sewage",
+      "Electricity and Streetlights",
+      "Garbage and Sanitation",
+      "Public Safety Hazards",
+      "Public Transport",
+      "Roads and Potholes",
+      "Water Supply and Leakage"
+    ]
+  },
+  "notes": "Baseline model. Fast inference. Supports predict_proba for confidence estimation."
+}
